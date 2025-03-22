@@ -32,3 +32,42 @@ print(text.endswith("data", 0, 4))
 # Output: True
 # Output: False
 # Output: True
+str.rstrip()
+The .rstrip() method removes trailing whitespace (spaces, tabs, newlines) or specified characters from the right side of a string.
+
+text = "Hello, World!   "
+cleaned_text = text.rstrip()  # Removes trailing spaces
+print(f"'{cleaned_text}'")  
+# Output: 'Hello, World!'
+
+# Removing specific characters
+text2 = "Python!!!"
+cleaned_text2 = text2.rstrip("!")
+print(cleaned_text2) 
+ # Output: 'Python'
+str.split()
+The .split() method splits a string into a list of substrings based on a specified delimiter. By default, it splits on whitespace.
+
+sentence = "Python is awesome"
+words = sentence.split()  # Splitting by spaces
+print(words)  
+# Output: ['Python', 'is', 'awesome']
+
+# Splitting using a custom delimiter
+data = "apple,banana,grape"
+fruits = data.split(",")
+print(fruits)  
+# Output: ['apple', 'banana', 'grape']
+
+str.join()
+The .join() method joins elements of an iterable (like a list) into a single string using a specified separator.
+
+words = ['Python', 'is', 'awesome']
+sentence = " ".join(words)  # Joining with space
+print(sentence)  # Output: 'Python is awesome'
+
+# Joining with a different separator
+fruits = ['apple', 'banana', 'grape']
+csv_string = ",".join(fruits)
+print(csv_string)  
+# Output: 'apple,banana,grape'
