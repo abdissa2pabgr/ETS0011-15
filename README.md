@@ -117,3 +117,51 @@ text2 = "---Hello---"
 cleaned_text2 = text2.lstrip("-")
 print(cleaned_text2) 
  # Output: 'Hello---'
+
+str.isalnum()
+Function:
+
+This method returns True if all characters in the string are alphanumeric (i.e., only letters and numbers).
+
+If the string contains spaces, symbols, or is empty, it returns False.
+
+s1 = "Hello123"
+s2 = "Hello 123"
+s3 = "123"
+s4 = ""
+
+print(s1.isalnum())  # True (only letters and numbers)
+print(s2.isalnum())  # False (contains a space)
+print(s3.isalnum())  # True (only numbers)
+print(s4.isalnum())  # False (empty string)
+
+str.isspace()
+Function:
+
+This method returns True if the string only contains whitespace characters (spaces, tabs, newlines).
+
+If the string has any non-space characters, it returns False.
+
+s1 = "   "  # Spaces only
+s2 = "\t\n"  # Tab and newline (still whitespace)
+s3 = " Hello "
+s4 = ""
+
+print(s1.isspace())  # True
+print(s2.isspace())  # True
+print(s3.isspace())  # False (contains letters)
+print(s4.isspace())  # False (empty string)
+
+str.format()
+Function:
+
+This method is used to format strings by inserting values into placeholders {}.
+
+It allows for dynamic string creation with variables.
+
+name = "Abdissa"
+age = 25
+
+message = "My name is {} and I am {} years old.".format(name, age)
+print(message)
+# Output: My name is Abdissa and I am 25 years old.
