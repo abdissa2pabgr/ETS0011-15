@@ -165,3 +165,58 @@ age = 25
 message = "My name is {} and I am {} years old.".format(name, age)
 print(message)
 # Output: My name is Abdissa and I am 25 years old.
+
+f-strings (Formatted String Literals)
+Function:
+
+f-strings provide a concise and readable way to format strings in Python.
+
+Introduced in Python 3.6, f-strings allow embedding expressions inside string literals using {}
+
+name = "Alice"
+age = 25
+print(f"My name is {name} and I am {age} years old.")
+# Output: My name is Alice and I am 25 years old.
+
+len()
+Function:
+
+len() returns the number of elements in an object (string, list, tuple, dictionary, etc.).
+
+# Example with a string
+text = "Hello"
+print(len(text)) 
+ # Output: 5
+
+# Example with a list
+numbers = [1, 2, 3, 4, 5]
+print(len(numbers)) 
+ # Output: 5
+
+# Example with a dictionary
+data = {"name": "Alice", "age": 25}
+print(len(data)) 
+ # Output: 2 (counts the number of keys)
+
+str.encode()
+Function:
+
+Converts a string into bytes using a specified encoding (default is UTF-8).
+
+Useful for working with binary data, file handling, and network communication.
+
+text = "Hello, world!"
+encoded_text = text.encode()  # Default UTF-8 encoding
+print(encoded_text) 
+ # Output: b'Hello, world!'
+
+# Encoding with a different format
+encoded_utf16 = text.encode("utf-16")
+print(encoded_utf16)  
+# Output: b'\xff\xfeH\x00e\x00l\x00l\x00o\x00,\x00 \x00w\x00o\x00r\x00l\x00d\x00!\x00'
+
+# Handling errors
+text = "Héllo"
+encoded_ascii = text.encode("ascii", errors="ignore")  # Ignores characters not in ASCII
+print(encoded_ascii)  
+# Output: b'Hllo'
