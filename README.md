@@ -117,3 +117,18 @@ This method checks if all characters in the string are alphabetic (letters) and 
 
 If the string contains only letters, it returns True; otherwise, it returns False.
 
+str.swapcase()
+This method returns a new string where all uppercase letters are converted to lowercase and all lowercase letters are converted to uppercase.
+
+str.find(sub, start, end)
+This method searches for a substring (sub) in the given string.
+
+It returns the index of the first occurrence of sub or -1 if the substring is not found.
+
+Optional start and end arguments can define a search range.
+
+str.title() in Python
+The title() method returns a new string where the first letter of each word is capitalized, and all other letters are converted to lowercase.
+
+It is useful for formatting strings into title case.
+
