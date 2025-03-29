@@ -132,3 +132,19 @@ The title() method returns a new string where the first letter of each word is c
 
 It is useful for formatting strings into title case.
 
+str.capitalize()
+Function: Capitalizes the first letter of the string and makes the rest of the letters lowercase.
+
+str.count(substring, start, end)
+Function: Counts the number of times a substring appears in a string.
+
+Parameters:
+
+substring: The string to count occurrences of.
+
+start (optional): The starting index for the search.
+
+end (optional): The ending index for the search.
+
+str.upper()
+Function: Converts all lowercase letters in a string to uppercase.
