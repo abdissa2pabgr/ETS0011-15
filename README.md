@@ -148,3 +148,16 @@ end (optional): The ending index for the search.
 
 str.upper()
 Function: Converts all lowercase letters in a string to uppercase.
+
+str.casefold()
+Converts the string to lowercase, similar to lower(), but more aggressive in case conversion.
+
+It is particularly useful for case-insensitive comparisons, especially with non-English characters
+
+str.center(width, fillchar=' ')
+Centers a string within a specified width.
+
+Optionally, you can specify a character to fill the empty space.
+
+str.lower()
+Converts all uppercase letters in a string to lowercase.
