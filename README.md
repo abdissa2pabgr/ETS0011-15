@@ -161,3 +161,25 @@ Optionally, you can specify a character to fill the empty space.
 
 str.lower()
 Converts all uppercase letters in a string to lowercase.
+
+str.expandtabs(tabsize=8)
+Replaces tab characters (\t) in a string with spaces.
+
+The default tab size is 8 spaces, but you can specify a different number.
+
+str.partition(separator)
+Splits a string into three parts:
+
+The part before the separator.
+
+The separator itself.
+
+The part after the separator.
+
+Returns a tuple ((before, separator, after)).
+
+If the separator is not found, the first element will be the original string, and the other two will be empty strings.
+
+str.rpartition(separator)
+Similar to partition(), but searches from the right (i.e., splits at the last occurrence of the separator).
+
