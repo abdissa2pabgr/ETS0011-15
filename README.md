@@ -26,3 +26,13 @@ extend(iterable)
 Adds all elements of iterable (list, tuple, set, etc.) to the list.
 
 Modifies the original list in place.
+
+remove Method
+The remove method searches for the first occurrence of a specified value in a list and deletes it. If the value is not found, it raises a ValueError.
+
+insert() Method
+The insert() method inserts an element at a specified index.
+
+pop() Method
+The pop() method removes and returns an element at a specified index.
+
