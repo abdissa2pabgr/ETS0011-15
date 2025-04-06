@@ -36,3 +36,15 @@ The insert() method inserts an element at a specified index.
 pop() Method
 The pop() method removes and returns an element at a specified index.
 
+reverse() Method
+Purpose: Reverses the elements of the list in place (modifies the original list).
+
+Note: It does not sort, it just flips the order.
+
+sort() Method
+Purpose: Sorts the list in ascending order by default.
+
+Note: Also modifies the list in place.
+
+Use sort(reverse=True) for descending order.
+
