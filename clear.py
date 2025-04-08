@@ -1,6 +1,3 @@
-# Example of clear()
-fruits = ["apple", "banana", "cherry"]
-fruits.clear()  
-
-print(fruits)  
-# Output: []
+my_dict = {"name": "Abdissa", "age": 25}
+my_dict.clear()
+print(my_dict)  # Output: {}
