@@ -27,3 +27,11 @@ Removes and returns the last inserted key-value pair as a tuple
 
 setdefault()
 Returns the value of a key if it exists. If not, inserts the key with a specified default value and returns that value.
+
+update()
+Description:
+The update() method updates a dictionary with the key-value pairs from another dictionary or from an iterable of key-value pairs. If the key already exists, it updates the value.
+
+values()
+Description:
+The values() method returns a view object that displays a list of all the values in the dictionary.
