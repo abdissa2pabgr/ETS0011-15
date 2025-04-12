@@ -1,6 +1,3 @@
-# Example of clear()
-fruits = ["apple", "banana", "cherry"]
-fruits.clear()  
-
-print(fruits)  
-# Output: []
+my_set = {1, 2, 3}
+my_set.clear()
+print(my_set)  # Output: set()
