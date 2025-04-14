@@ -15,3 +15,13 @@ Removes elements found in another set from the original set. It modifies the ori
 
 discard()
 Removes a specified element from the set if it is present. Does nothing if the element is not found (no error)
+
+intersection()
+Returns a new set with elements common to all sets. The original sets are not modified.
+
+intersection_update()
+Updates the set by keeping only elements found in it and all other sets. The original set is modified.
+
+isdisjoint()
+Returns True if the two sets have no elements in common, otherwise returns False.
+
