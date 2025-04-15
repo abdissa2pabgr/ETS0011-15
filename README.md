@@ -25,3 +25,13 @@ Updates the set by keeping only elements found in it and all other sets. The ori
 isdisjoint()
 Returns True if the two sets have no elements in common, otherwise returns False.
 
+issubset()
+Checks whether all elements of this set are in another set. Returns True or False.
+
+issuperset()
+Checks whether this set contains all elements of another set. Returns True or False.
+
+pop()
+Removes and returns a random element from the set. Raises a KeyError if the set is empty. Since sets are unordered, the element removed is arbitrary.
+
+
