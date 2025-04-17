@@ -34,4 +34,12 @@ Checks whether this set contains all elements of another set. Returns True or Fa
 pop()
 Removes and returns a random element from the set. Raises a KeyError if the set is empty. Since sets are unordered, the element removed is arbitrary.
 
+remove()
+Removes a specific element from the set.
+Raises a KeyError if the element is not found.
 
+symmetric_difference()
+Returns a new set with elements in either set but not in both. Original sets are not changed.
+
+symmetric_difference_update()
+Updates the original set with the symmetric difference of itself and another set.
