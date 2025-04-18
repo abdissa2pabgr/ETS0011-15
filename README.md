@@ -43,3 +43,11 @@ Returns a new set with elements in either set but not in both. Original sets are
 
 symmetric_difference_update()
 Updates the original set with the symmetric difference of itself and another set.
+
+union()
+Returns a new set containing all unique elements from all input sets.
+Original sets are not modified.
+
+update()
+Adds elements from another set (or iterable) into the current set.
+Original set is modified.
