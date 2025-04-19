@@ -1,8 +1,5 @@
-append() Method
-The append() method adds an element to the end of the list. It modifies the original list in place.
+count() Method
+Purpose: Returns the number of times a specified value appears in the tuple.
 
-copy() Method
-The copy() method creates a shallow copy of the list. This means the new list contains the same elements but is a separate object from the original list.
-
-clear() Method
-The clear() method removes all elements from the list, making it empty.
+index() Method
+Purpose: Returns the first index of the specified value.

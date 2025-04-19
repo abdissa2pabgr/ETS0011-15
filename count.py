@@ -1,10 +1,3 @@
-# Example of copy()
-original_list = ["a", "b", "c"]
-copied_list = original_list.copy()
-
-print(copied_list)  
-# Output: ['a', 'b', 'c']
-
-# Verify that they are different objects
-print(original_list is copied_list)  
-# Output: False
+my_tuple = (1, 2, 3, 2, 4, 2, 5)
+count_2 = my_tuple.count(2)
+print(count_2)  # Output: 3
