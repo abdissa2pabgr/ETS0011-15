@@ -16,3 +16,12 @@ Returns True if the file is connected to a terminal device (like the console). F
 read()
 Reads the entire content of the file (or up to a given number of characters).
 
+readable()
+Checks if the file stream is readable (i.e., opened in read mode). Returns True or False.
+
+readline()
+Reads a single line from the file. Moves the cursor to the next line with each call.
+
+readlines()
+Reads all lines in a file and returns them as a list.
+
